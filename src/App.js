@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const spotify_secret_key = process.env.REACT_APP_SPOTIFY_KEY
   return (
     <div className="App">
       <header className="App-header">
